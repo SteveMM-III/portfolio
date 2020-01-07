@@ -2,7 +2,9 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <h1>Projects</h1>
+    <div className='navUnder fullWidth borderTB borderGradient fade'>
+      <h1 className='w3-center'>Projects</h1>
+    </div>
   )
 }
 

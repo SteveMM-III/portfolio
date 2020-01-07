@@ -2,7 +2,9 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <h1>Contact</h1>
+    <div className='navUnder fullWidth borderTB borderGradient fade'>
+      <h1 className='w3-center'>Contact</h1>
+    </div>
   )
 }
 
