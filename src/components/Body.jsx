@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-import Home from './modals/Home';
-import Intro from './modals/Intro';
-import Projects from './modals/Projects';
-import About from './modals/About';
-import Contact from './modals/Contact';
+import Home from './sections/Home';
+import Intro from './sections/Intro';
+import Projects from './sections/Projects';
+import About from './sections/About';
+import Contact from './sections/Contact';
 import Navigation from './Navigation';
 
 const Body = () => {

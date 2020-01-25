@@ -115,7 +115,10 @@ nav ul li:hover {
 }
 
 .borderGradient {
-  border-image: linear-gradient( to right, rgba( 0, 0, 0, 0 ), white, rgba( 0, 0, 0, 0 ) ) 1;
+  border-image: linear-gradient( to right,
+  rgba( 0, 0, 0, 0 ),
+  white,
+  rgba( 0, 0, 0, 0 ) ) 1;
 }
 
 .borderTB {
@@ -125,6 +128,10 @@ nav ul li:hover {
 
 .navUnder {
   margin-bottom: 3rem;
+}
+
+p {
+  margin: 1rem 4rem;
 }
 
 footer p {
