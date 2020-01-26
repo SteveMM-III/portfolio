@@ -3,8 +3,9 @@ import React from 'react';
 const About = () => {
   return (
     <div className='navUnder fullWidth borderTB borderGradient fade'>
-      <h1 className='w3-center'>About</h1>
-      <article>
+      <section>
+        <h1 className='w3-center'>About</h1>
+        
         <p>My name is Steve M Morehead III.  I currently live in Pensacola, FL, home of the USN Blue Angels. When I'm not pounding the keyboard, I enjoy being in/on the water.</p>
 
         <p>I first got excited about computers, as a young boy back in the mid 80's with a Tandy TRS-80! Though I spent many hours with it, as time passed, computers got more powerful and easily surpassed my ability to afford them.</p>
@@ -16,7 +17,7 @@ const About = () => {
         <p>In late August 2019, driving a truck was taking it's toll on my knees and I needed to look for a career that was less physical. I learned about a unique learning experience called Lambda School.   I quickly signed up and started classes on Sept. 3rd in the Web24 cohort.</p>
 
         <p>Moving into 2020, I have completed the full-stack coursework and have started working as a Team Lead for the Web28 cohort.</p>
-      </article>
+      </section>
     </div>
   )
 }

@@ -72,12 +72,14 @@ code {
 main {
   margin:  auto;
   width:   80vw;
-  height:  99vh;
+  height:  95vh;
   display: flex;
   z-index: 10;
 
   align-items:     center;
-  justify-content: center; }
+  justify-content: center;
+  overflow-y: auto;
+  margin-bottom: 5rem; }
 
 main div {
   min-width: 400px;
@@ -131,9 +133,12 @@ nav ul li:hover {
 }
 
 p {
-  margin: 1rem 4rem;
+  margin: 1rem 2rem;
 }
 
-footer p {
-  padding: 1rem 0;
+section {
+  width: 80%;
+  margin: 1rem auto;
+  padding: 2rem 0;
+  background-image: radial-gradient( circle, rgba( 5, 5, 5, 0.3 ), rgba( 5, 5, 5, 0.1 ), rgba( 5, 5, 5, 0 ) );
 }
