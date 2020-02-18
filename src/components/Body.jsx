@@ -8,7 +8,6 @@ import Contact    from './sections/Contact';
 import Navigation from './Navigation';
 
 const Body = () => {
-  // conditional rendering will go here
   const [ current, setCurrent ] = useState( 'home' );
 
   return (

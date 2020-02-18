@@ -6,6 +6,9 @@ const Intro = () => {
       <section>
         <h1 className='w3-center'>Intro</h1>
         
+        <h4 className='w3-center'>
+          Work In Progress...</h4>
+
         <p className='w3-center'>This portfolio is written in React and is loosely based on the Dimension template designed by <a href="https://html5up.net">HTML5 UP</a> and released for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
       </section>
     </div>
