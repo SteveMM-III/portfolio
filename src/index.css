@@ -14,7 +14,8 @@ body {
   height:   100vh;
   overflow: hidden;
   color:  white;
-  background-color: black; }
+  background-color: black;
+  font-size: 1.8rem; }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; }
